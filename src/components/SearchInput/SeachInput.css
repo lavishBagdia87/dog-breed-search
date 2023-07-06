@@ -1,0 +1,21 @@
+.search-input-container {
+  border-radius: 16px;
+  height: 20px;
+  width: 40%;
+  padding: 8px;
+  border: 1px solid rgb(216, 200, 200);
+  display: flex;
+}
+.search-input-container .search-icon {
+  width: 8%;
+}
+.input-field {
+  width: 90%;
+  border: none !important;
+  margin-left: 4px;
+  font-size: 16px;
+}
+.input-field:focus {
+  border: none !important;
+  outline: none;
+}

@@ -1,0 +1,22 @@
+.sort-button-container {
+  margin-left: 16px;
+  margin-top: 8px;
+  display: flex;
+}
+.sort-button-container .sort-button {
+  width: 20px;
+}
+.selected-sort {
+  margin-left: 16px;
+}
+.menu-container .MuiPopover-paper {
+  min-width: 200px;
+  max-width: 200px;
+}
+.menu-icon {
+  width: 20%;
+  margin-right: 10px;
+}
+.menu-text {
+  font-size: 0.75rem;
+}

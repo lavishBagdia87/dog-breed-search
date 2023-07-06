@@ -1,0 +1,42 @@
+.row-container {
+  border: 0.2px solid rgb(231, 227, 227);
+  border-radius: 5px;
+  margin: 8px;
+  padding: 8px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-items: center;
+}
+.row-container .image-container {
+  display: inline-block;
+  width: 30%;
+  margin: 8px;
+  text-align: left;
+}
+.row-container .breed-image {
+  width: 100%;
+  border-radius: 8%;
+}
+.row-container .loading-image {
+  width: 10vw;
+  text-align: center;
+}
+
+.row-container .data-container {
+  display: inline-block;
+  width: 60%;
+  margin: 8px;
+  text-align: left;
+  flex-direction: column;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+.row-container .data-point {
+  display: inline-block;
+  margin: 4px 0;
+}
+.row-container .head {
+  font-weight: 800;
+}
